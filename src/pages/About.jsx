@@ -187,9 +187,9 @@ const About = () => {
               }}>
                 📊
               </div>
-              <h3>Mike Chen</h3>
-              <p style={{ color: '#00d4ff', fontWeight: '600', marginBottom: '1rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>Project Manager</p>
-              <p>Experienced project manager ensuring smooth delivery and exceptional client satisfaction.</p>
+              <h3>Gia Seo Vang</h3>
+              <p style={{ color: '#00d4ff', fontWeight: '600', marginBottom: '1rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>Sales Manager</p>
+              <p>Experienced sales manager ensuring smooth delivery and exceptional client satisfaction.</p>
             </div>
           </div>
         </div>

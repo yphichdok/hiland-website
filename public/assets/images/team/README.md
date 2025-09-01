@@ -29,7 +29,7 @@ This folder is for storing team member profile photos.
 
 - **Jack** - Lead Developer (Mr.Jack.jpg)
 - **Huy** - UI/UX Designer (Mr.Huy.JPEG)
-- **Mike Chen** - Project Manager (emoji placeholder)
+- **Gia Seo Vang** - Sales Manager (emoji placeholder)
 
 ## Notes:
 
