@@ -66,13 +66,13 @@ const Contact = () => {
               
               <div style={{ marginBottom: '2rem' }}>
                 <h3 style={{ color: '#667eea', marginBottom: '1rem', fontSize: '1.3rem' }}>📧 Email</h3>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>info@webdevservices.com</p>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>support@webdevservices.com</p>
+                <p style={{ color: '#718096', fontSize: '1.1rem' }}>info@hiland.tech</p>
+                <p style={{ color: '#718096', fontSize: '1.1rem' }}>support@hiland.tech</p>
               </div>
               
               <div style={{ marginBottom: '2rem' }}>
                 <h3 style={{ color: '#667eea', marginBottom: '1rem', fontSize: '1.3rem' }}>📞 Phone</h3>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>+1 (555) 123-4567</p>
+                <p style={{ color: '#718096', fontSize: '1.1rem' }}>952-245-9629</p>
                 <p style={{ color: '#718096', fontSize: '1.1rem' }}>Mon-Fri: 9:00 AM - 6:00 PM PST</p>
               </div>
               

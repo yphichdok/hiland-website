@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="nav-container">
         <Link to="/" className="logo" onClick={closeMobileMenu}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <Logo size="small" />
+            <Logo size="default" />
             <span style={{ fontSize: '1.5rem', fontWeight: '800', color: 'white' }}>Hiland Tech</span>
           </div>
         </Link>

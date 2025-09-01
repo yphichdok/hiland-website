@@ -4,11 +4,11 @@ const Logo = ({ size = 'default', className = '' }) => {
   const getSize = () => {
     switch (size) {
       case 'small':
-        return { width: '32px', height: '32px', fontSize: '14px' };
+        return { width: '40px', height: '40px', fontSize: '16px' };
       case 'large':
-        return { width: '80px', height: '80px', fontSize: '24px' };
+        return { width: '100px', height: '100px', fontSize: '28px' };
       default:
-        return { width: '48px', height: '48px', fontSize: '18px' };
+        return { width: '56px', height: '56px', fontSize: '20px' };
     }
   };
 

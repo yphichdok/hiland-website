@@ -38,8 +38,8 @@ const Footer = () => {
         
         <div className="footer-section">
           <h3>Contact Info</h3>
-          <p>Email: info@hilandtech.com</p>
-          <p>Phone: Contact for details</p>
+          <p>Email: info@hiland.tech</p>
+          <p>Phone: 952-245-9629</p>
           <p>Address: Minnesota, United States</p>
         </div>
       </div>
