@@ -27,8 +27,9 @@ This folder is for storing team member profile photos.
 
 ## Current Team Members:
 
-- **John Smith** - Lead Developer
-- **Sarah Johnson** - UI/UX Designer
+- **Jack** - Lead Developer (Jack.JPG)
+- **Huy** - UI/UX Designer (Huy.JPEG)
+- **Mike Chen** - Project Manager (emoji placeholder)
 
 ## Notes:
 

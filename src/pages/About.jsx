@@ -125,17 +125,22 @@ const About = () => {
                 width: '120px', 
                 height: '120px', 
                 borderRadius: '50%', 
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
                 margin: '0 auto 1.5rem',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '3rem',
-                color: 'white'
+                overflow: 'hidden',
+                border: '3px solid rgba(0, 212, 255, 0.3)',
+                boxShadow: '0 0 20px rgba(0, 212, 255, 0.2)'
               }}>
-                👨‍💻
+                <img 
+                  src="/assets/images/team/Jack.JPG" 
+                  alt="Jack - Lead Developer"
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover'
+                  }}
+                />
               </div>
-              <h3>John Smith</h3>
+              <h3>Jack</h3>
               <p style={{ color: '#00d4ff', fontWeight: '600', marginBottom: '1rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>Lead Developer</p>
               <p>Full-stack developer with 8+ years of experience in modern web technologies and frameworks.</p>
             </div>
@@ -145,17 +150,22 @@ const About = () => {
                 width: '120px', 
                 height: '120px', 
                 borderRadius: '50%', 
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
                 margin: '0 auto 1.5rem',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '3rem',
-                color: 'white'
+                overflow: 'hidden',
+                border: '3px solid rgba(0, 212, 255, 0.3)',
+                boxShadow: '0 0 20px rgba(0, 212, 255, 0.2)'
               }}>
-                🎨
+                <img 
+                  src="/assets/images/team/Huy.JPEG" 
+                  alt="Huy - UI/UX Designer"
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover'
+                  }}
+                />
               </div>
-              <h3>Sarah Johnson</h3>
+              <h3>Huy</h3>
               <p style={{ color: '#00d4ff', fontWeight: '600', marginBottom: '1rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>UI/UX Designer</p>
               <p>Creative designer passionate about creating beautiful, intuitive user experiences that convert.</p>
             </div>
@@ -165,18 +175,20 @@ const About = () => {
                 width: '120px', 
                 height: '120px', 
                 borderRadius: '50%', 
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%)',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 fontSize: '3rem',
-                color: 'white'
+                color: 'white',
+                border: '3px solid rgba(0, 212, 255, 0.3)',
+                boxShadow: '0 0 20px rgba(0, 212, 255, 0.2)'
               }}>
                 📊
               </div>
               <h3>Mike Chen</h3>
-              <p style={{ color: '#667eea', fontWeight: '600', marginBottom: '1rem' }}>Project Manager</p>
+              <p style={{ color: '#00d4ff', fontWeight: '600', marginBottom: '1rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>Project Manager</p>
               <p>Experienced project manager ensuring smooth delivery and exceptional client satisfaction.</p>
             </div>
           </div>
@@ -194,19 +206,19 @@ const About = () => {
             textAlign: 'center'
           }}>
             <div>
-              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#667eea', marginBottom: '0.5rem' }}>150+</div>
+              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#00d4ff', marginBottom: '0.5rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5)' }}>150+</div>
               <div style={{ fontSize: '1.2rem' }}>Projects Completed</div>
             </div>
             <div>
-              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#667eea', marginBottom: '0.5rem' }}>98%</div>
+              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#00d4ff', marginBottom: '0.5rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5)' }}>98%</div>
               <div style={{ fontSize: '1.2rem' }}>Client Satisfaction</div>
             </div>
             <div>
-              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#667eea', marginBottom: '0.5rem' }}>5+</div>
+              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#00d4ff', marginBottom: '0.5rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5)' }}>5+</div>
               <div style={{ fontSize: '1.2rem' }}>Years Experience</div>
             </div>
             <div>
-              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#667eea', marginBottom: '0.5rem' }}>24/7</div>
+              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#00d4ff', marginBottom: '0.5rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5)' }}>24/7</div>
               <div style={{ fontSize: '1.2rem' }}>Support Available</div>
             </div>
           </div>
