@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import SEO from './components/SEO'
+import DynamicSEO from './components/DynamicSEO'
 import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -30,7 +30,7 @@ function App() {
         {/* Cyberpunk Scan Line */}
         <div className="cyberpunk-scan"></div>
         
-        <SEO />
+        <DynamicSEO />
         <Navbar />
         <main>
           <Routes>
