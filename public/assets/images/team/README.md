@@ -27,8 +27,8 @@ This folder is for storing team member profile photos.
 
 ## Current Team Members:
 
-- **Jack** - Lead Developer (Jack.JPG)
-- **Huy** - UI/UX Designer (Huy.JPEG)
+- **Jack** - Lead Developer (Mr.Jack.jpg)
+- **Huy** - UI/UX Designer (Mr.Huy.JPEG)
 - **Mike Chen** - Project Manager (emoji placeholder)
 
 ## Notes:

@@ -131,7 +131,7 @@ const About = () => {
                 boxShadow: '0 0 20px rgba(0, 212, 255, 0.2)'
               }}>
                 <img 
-                  src="/assets/images/team/Jack.JPG" 
+                  src="/assets/images/team/Mr.Jack.jpg" 
                   alt="Jack - Lead Developer"
                   style={{
                     width: '100%',
@@ -156,7 +156,7 @@ const About = () => {
                 boxShadow: '0 0 20px rgba(0, 212, 255, 0.2)'
               }}>
                 <img 
-                  src="/assets/images/team/Huy.JPEG" 
+                  src="/assets/images/team/Mr.Huy.JPEG" 
                   alt="Huy - UI/UX Designer"
                   style={{
                     width: '100%',
