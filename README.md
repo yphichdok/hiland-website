@@ -170,8 +170,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Support
 
 For support or questions, please contact:
-- Email: info@webdevservices.com
-- Phone: +1 (555) 123-4567
+- Email: info@hiland.tech
+- Phone: +1 (714) 912-3163
 
 ## Future Enhancements
 
