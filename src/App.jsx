@@ -14,6 +14,22 @@ function App() {
   return (
     <Router>
       <div className="App">
+        {/* AI Tech Particle Effects */}
+        <div className="ai-particles">
+          <div className="ai-particle"></div>
+          <div className="ai-particle"></div>
+          <div className="ai-particle"></div>
+          <div className="ai-particle"></div>
+          <div className="ai-particle"></div>
+          <div className="ai-particle"></div>
+          <div className="ai-particle"></div>
+          <div className="ai-particle"></div>
+          <div className="ai-particle"></div>
+        </div>
+        
+        {/* Cyberpunk Scan Line */}
+        <div className="cyberpunk-scan"></div>
+        
         <SEO />
         <Navbar />
         <main>
