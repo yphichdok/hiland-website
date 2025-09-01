@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="logo" onClick={closeMobileMenu}>
-          WebDev Services
+          HILAND TECH
         </Link>
         
         <button className="mobile-menu-btn" onClick={toggleMobileMenu}>

@@ -87,7 +87,6 @@ const Contact = () => {
                 <h3 style={{ color: '#667eea', marginBottom: '1rem', fontSize: '1.3rem' }}>💬 Social Media</h3>
                 <div style={{ display: 'flex', gap: '1rem' }}>
                   <a href="#" style={{ 
-                    display: 'inline-block',
                     width: '40px',
                     height: '40px',
                     background: '#667eea',
@@ -102,7 +101,6 @@ const Contact = () => {
                     📘
                   </a>
                   <a href="#" style={{ 
-                    display: 'inline-block',
                     width: '40px',
                     height: '40px',
                     background: '#667eea',
@@ -117,7 +115,6 @@ const Contact = () => {
                     🐦
                   </a>
                   <a href="#" style={{ 
-                    display: 'inline-block',
                     width: '40px',
                     height: '40px',
                     background: '#667eea',

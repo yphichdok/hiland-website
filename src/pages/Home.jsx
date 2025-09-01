@@ -10,7 +10,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1>Transform Your Business with Professional Web Development</h1>
+          <h1>Transform Your Business with HILAND TECH</h1>
           <p>We create stunning, responsive websites and web applications that help businesses grow and succeed in the digital world.</p>
           <Link to="/contact" className="cta-button">Get Started Today</Link>
         </div>
@@ -19,7 +19,7 @@ const Home = () => {
       {/* Features Section */}
       <section className="section">
         <div className="section-container">
-          <h2 className="section-title">Why Choose WebDev Services?</h2>
+          <h2 className="section-title">Why Choose HILAND TECH?</h2>
           <p className="section-subtitle">We combine cutting-edge technology with creative design to deliver exceptional results for our clients.</p>
           
           <div className="cards-grid">

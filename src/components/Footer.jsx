@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>WebDev Services</h3>
+          <h3>HILAND TECH</h3>
           <p>Professional web development solutions for modern businesses. We create stunning, responsive websites and web applications that drive results.</p>
         </div>
         

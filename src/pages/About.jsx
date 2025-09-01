@@ -6,7 +6,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1>About WebDev Services</h1>
+          <h1>About HILAND TECH</h1>
           <p>We're a passionate team of web developers, designers, and digital strategists dedicated to helping businesses succeed online.</p>
         </div>
       </section>
