@@ -68,37 +68,37 @@ const Home = () => {
           <p className="section-subtitle">We combine cutting-edge technology with creative design to deliver exceptional results for businesses across diverse industries.</p>
           
           <div className="cards-grid">
-            <div className="card fade-in-up">
+            <div className="card">
               <div className="card-icon">🎨</div>
               <h3>Elegant Modern Design</h3>
               <p>Beautiful, contemporary designs tailored to each industry that capture your brand's essence and engage your audience.</p>
             </div>
             
-            <div className="card fade-in-up">
+            <div className="card">
               <div className="card-icon">🤖</div>
               <h3>AI Integration</h3>
               <p>Cutting-edge AI technologies including chatbots, smart SEO, and automation tools to give you competitive advantages.</p>
             </div>
             
-            <div className="card fade-in-up">
+            <div className="card">
               <div className="card-icon">⚡</div>
               <h3>Optimal Performance</h3>
               <p>Lightning-fast websites with optimal speed and performance across all devices and platforms.</p>
             </div>
             
-            <div className="card fade-in-up">
+            <div className="card">
               <div className="card-icon">🔧</div>
               <h3>Custom Solutions</h3>
               <p>Flexible solutions that match your exact needs and budget, built specifically for your business goals.</p>
             </div>
             
-            <div className="card fade-in-up">
+            <div className="card">
               <div className="card-icon">📱</div>
               <h3>Mobile-First Design</h3>
               <p>Websites designed for mobile users first, ensuring great experience across all devices and screen sizes.</p>
             </div>
             
-            <div className="card fade-in-up">
+            <div className="card">
               <div className="card-icon">📊</div>
               <h3>Easy Management</h3>
               <p>User-friendly content management systems that make it easy to update and maintain your website.</p>
@@ -108,7 +108,7 @@ const Home = () => {
       </section>
 
       {/* Industry Expertise Section */}
-      <section className="section" style={{ backgroundColor: '#f8fafc' }}>
+      <section className="section">
         <div className="section-container">
           <h2 className="section-title">Industry Expertise</h2>
           <p className="section-subtitle">We have successfully completed numerous projects across diverse industries</p>
