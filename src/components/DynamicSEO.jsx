@@ -13,8 +13,16 @@ const DynamicSEO = ({
   // Default values
   const defaultTitle = 'Hiland Tech - Custom Website Design Company in Minnesota & California';
   const defaultDescription = 'Hiland Tech is a custom website design company serving Minnesota and California. We create elegant, modern websites with AI integration for beauty salons, restaurants, financial services, and more. Starting at $1,000.';
-  const defaultImage = 'https://hiland.tech/assets/images/social/hiland-feature.jpg';
-  const defaultUrl = 'https://hiland.tech';
+  const defaultImage = '/assets/images/social/hiland-feature.jpg';
+  const defaultUrl = window.location.origin || 'https://hiland.tech';
+  
+  // Build absolute image URL
+  const buildAbsoluteImageUrl = (imagePath) => {
+    if (imagePath.startsWith('http')) {
+      return imagePath;
+    }
+    return `${window.location.origin}${imagePath}`;
+  };
   
   // Use provided values or defaults
   const finalTitle = title || defaultTitle;
@@ -24,12 +32,29 @@ const DynamicSEO = ({
 
   useEffect(() => {
     // Force social media platforms to re-scrape the page
-    if (typeof window !== 'undefined' && window.location.href.includes('hiland.tech')) {
-      // Add cache busting for social media platforms
+    if (typeof window !== 'undefined') {
+      const absoluteImageUrl = buildAbsoluteImageUrl(finalImage);
+      const cacheBuster = `?v=${Date.now()}`;
+      
+      // Update Open Graph image
       const metaImage = document.querySelector('meta[property="og:image"]');
       if (metaImage) {
-        metaImage.setAttribute('content', `${finalImage}?v=${Date.now()}`);
+        metaImage.setAttribute('content', `${absoluteImageUrl}${cacheBuster}`);
       }
+      
+      // Update Twitter image
+      const twitterImage = document.querySelector('meta[property="twitter:image"]');
+      if (twitterImage) {
+        twitterImage.setAttribute('content', `${absoluteImageUrl}${cacheBuster}`);
+      }
+      
+      // Update secure URL
+      const secureImage = document.querySelector('meta[property="og:image:secure_url"]');
+      if (secureImage) {
+        secureImage.setAttribute('content', `${absoluteImageUrl}${cacheBuster}`);
+      }
+      
+      console.log('Social media images updated:', absoluteImageUrl);
     }
   }, [finalImage]);
 
