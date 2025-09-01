@@ -34,6 +34,11 @@ This folder contains all images used throughout the website.
 - **Use**: Miscellaneous graphics and images
 - **Example**: `company-logo.png`, `background-pattern.jpg`
 
+### 📁 `social/`
+- **Purpose**: Social media feature images
+- **Use**: Open Graph images for social sharing
+- **Example**: `hiland-tech-main.jpg`, `home-feature.jpg`
+
 ## Image Guidelines:
 
 - **Formats**: JPG, PNG, WebP (recommended)
@@ -58,5 +63,6 @@ This folder contains all images used throughout the website.
 ## Current Status:
 
 - ✅ **Team folder**: Ready for team member photos
+- ✅ **Social media folder**: Ready for Open Graph images
 - ✅ **All folders**: Created and ready for use
 - 📝 **Add your images**: Place them in the appropriate folders
