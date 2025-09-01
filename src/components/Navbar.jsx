@@ -23,7 +23,12 @@ const Navbar = () => {
       <div className="nav-container">
         <Link to="/" className="logo" onClick={closeMobileMenu}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <Logo size="default" />
+            <Logo 
+              size="default" 
+              useImage={true} 
+              imageSrc="/assets/logos/hitechlogo.jpg"
+              imageAlt="Hiland Tech Logo"
+            />
             <span style={{ fontSize: '1.5rem', fontWeight: '800', color: 'white' }}>Hiland Tech</span>
           </div>
         </Link>

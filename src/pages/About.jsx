@@ -37,7 +37,12 @@ const About = () => {
       <section className="hero">
         <div className="hero-content">
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
-            <Logo size="large" />
+            <Logo 
+              size="large" 
+              useImage={true} 
+              imageSrc="/assets/logos/hitechlogo.jpg"
+              imageAlt="Hiland Tech Logo"
+            />
           </div>
           <h1>About Hiland Tech</h1>
           <p>We're a custom website design company based in Minnesota with years of experience in web design and development, successfully completing numerous projects across diverse industries.</p>

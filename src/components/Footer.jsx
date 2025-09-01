@@ -8,7 +8,12 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '1rem' }}>
-            <Logo size="small" />
+            <Logo 
+              size="small" 
+              useImage={true} 
+              imageSrc="/assets/logos/hitechlogo.jpg"
+              imageAlt="Hiland Tech Logo"
+            />
             <h3>Hiland Tech</h3>
           </div>
           <p>Custom website design company based in Minnesota. We create elegant, modern designs tailored to each industry with AI integration capabilities.</p>

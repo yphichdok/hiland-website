@@ -48,7 +48,12 @@ const Home = () => {
       <section className="hero">
         <div className="hero-content">
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
-            <Logo size="large" />
+            <Logo 
+              size="large" 
+              useImage={true} 
+              imageSrc="/assets/logos/hitechlogo.jpg"
+              imageAlt="Hiland Tech Logo"
+            />
           </div>
           <h1>Professional Website Design That Drives Business Growth</h1>
           <p>In today's AI-driven era, a modern, sophisticated, and professional website is not just your brand's face—it's a powerful tool to attract customers, elevate your business image, and create competitive advantages.</p>
