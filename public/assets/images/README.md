@@ -1,74 +1,62 @@
-# Images Folder
+# Website Images
 
-This folder is for storing general website images like hero images, portfolio images, team photos, etc.
+This folder contains all images used throughout the website.
 
-## How to Add Images
+## Folder Structure:
 
-1. **Copy your image files** into this folder
-2. **Supported formats**: PNG, JPG, WebP, SVG
-3. **Recommended file names**: Use descriptive names like `hero-background.jpg`, `team-member-john.jpg`
+### 📁 `team/`
+- **Purpose**: Team member profile photos
+- **Use**: Profile pictures for About page team section
+- **Example**: `john-smith.jpg`, `sarah-johnson.jpg`
 
-## Image Categories
+### 📁 `hero/`
+- **Purpose**: Hero section background images
+- **Use**: Main landing page backgrounds
+- **Example**: `hero-bg.jpg`, `hero-pattern.png`
 
-- **Hero images**: Background images for main sections
-- **Portfolio images**: Screenshots of your work
-- **Team photos**: Staff and team member photos
-- **Background images**: Decorative background images
-- **Banner images**: Section header images
+### 📁 `services/`
+- **Purpose**: Service-related images and icons
+- **Use**: Service page illustrations and graphics
+- **Example**: `web-design.jpg`, `ai-integration.png`
 
-## Image Optimization
+### 📁 `portfolio/`
+- **Purpose**: Portfolio project images
+- **Use**: Project showcases and thumbnails
+- **Example**: `project-1.jpg`, `project-2.png`
 
-- **Hero images**: 1200x800px or larger
-- **Portfolio images**: 800x600px or larger
-- **Team photos**: 400x400px (square format)
-- **Background images**: 1920x1080px for full-width
+### 📁 `blog/`
+- **Purpose**: Blog post featured images
+- **Use**: Blog post headers and thumbnails
+- **Example**: `blog-post-1.jpg`, `blog-post-2.png`
 
-## How to Use Images
+### 📁 `general/`
+- **Purpose**: General website images
+- **Use**: Miscellaneous graphics and images
+- **Example**: `company-logo.png`, `background-pattern.jpg`
 
-### In React Components:
+## Image Guidelines:
+
+- **Formats**: JPG, PNG, WebP (recommended)
+- **Sizes**: Optimize for web use
+- **Naming**: Use lowercase with hyphens
+- **Quality**: Balance between quality and file size
+- **Alt Text**: Always provide descriptive alt text in code
+
+## Usage Examples:
+
 ```jsx
-import heroImage from '/assets/images/hero-background.jpg';
+// Team member photo
+<img src="/assets/images/team/john-smith.jpg" alt="John Smith" />
 
-<div style={{ backgroundImage: `url(${heroImage})` }}>
-  Hero content
-</div>
+// Service illustration
+<img src="/assets/images/services/web-design.jpg" alt="Web Design Services" />
+
+// Portfolio project
+<img src="/assets/images/portfolio/project-1.jpg" alt="E-commerce Website" />
 ```
 
-### In CSS:
-```css
-.hero-section {
-  background-image: url('/assets/images/hero-background.jpg');
-}
-```
+## Current Status:
 
-### In HTML:
-```html
-<img src="/assets/images/team-member.jpg" alt="Team Member" />
-```
-
-## File Naming Convention
-
-Use descriptive names with hyphens:
-- `hero-background.jpg`
-- `portfolio-website-1.jpg`
-- `team-member-john-smith.jpg`
-- `about-us-office.jpg`
-
-## Image Requirements
-
-- **High quality**: Use original high-resolution images
-- **Web optimized**: Compress for web use
-- **Descriptive names**: Use clear, descriptive filenames
-- **Alt text**: Always include alt text for accessibility
-
-## Current Usage
-
-Your website currently uses:
-- CSS gradients for hero sections
-- Emoji icons for visual elements
-- Text-based logos
-
-To add actual images:
-1. Place them in this folder
-2. Update the relevant components
-3. Ensure responsive behavior
+- ✅ **Team folder**: Ready for team member photos
+- ✅ **All folders**: Created and ready for use
+- 📝 **Add your images**: Place them in the appropriate folders
