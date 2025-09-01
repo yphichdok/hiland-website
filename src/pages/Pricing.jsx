@@ -7,7 +7,7 @@ const Pricing = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1>Transparent Pricing Plans</h1>
+          <h1>💻 Hiland Tech Pricing</h1>
           <p>Choose the perfect plan for your business needs. All plans include our commitment to quality and support.</p>
         </div>
       </section>
@@ -20,8 +20,8 @@ const Pricing = () => {
           
           <div className="pricing-grid">
             <div className="pricing-card">
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>Starter</h3>
-              <div className="price">$999</div>
+              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>Static Website</h3>
+              <div className="price">$1,200</div>
               <div className="price-period">One-time payment</div>
               <p style={{ color: '#718096', marginBottom: '2rem' }}>Perfect for small businesses and startups</p>
               
@@ -32,7 +32,8 @@ const Pricing = () => {
                 <li>Contact form</li>
                 <li>Social media integration</li>
                 <li>Basic analytics</li>
-                <li>1 month of support</li>
+                <li>Content management system</li>
+                <li><strong>First-time client discount: $1,000</strong></li>
               </ul>
               
               <Link to="/contact" className="cta-button" style={{ marginTop: '2rem' }}>
@@ -56,21 +57,21 @@ const Pricing = () => {
                 Most Popular
               </div>
               
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>Professional</h3>
-              <div className="price">$2,499</div>
+              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>Custom Website</h3>
+              <div className="price">$2,500+</div>
               <div className="price-period">One-time payment</div>
-              <p style={{ color: '#718096', marginBottom: '2rem' }}>Ideal for growing businesses</p>
+              <p style={{ color: '#718096', marginBottom: '2rem' }}>Ideal for growing businesses with complex needs</p>
               
               <ul className="pricing-features">
-                <li>10-page responsive website</li>
-                <li>Custom design & branding</li>
+                <li>Custom website with database</li>
+                <li>Login system & user management</li>
                 <li>Advanced SEO optimization</li>
                 <li>Content management system</li>
                 <li>Blog functionality</li>
                 <li>Advanced analytics</li>
-                <li>E-commerce integration</li>
-                <li>3 months of support</li>
+                <li>Custom features & integrations</li>
                 <li>Performance optimization</li>
+                <li><strong>Price varies by complexity</strong></li>
               </ul>
               
               <Link to="/contact" className="cta-button" style={{ marginTop: '2rem' }}>
@@ -79,26 +80,25 @@ const Pricing = () => {
             </div>
             
             <div className="pricing-card">
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>Enterprise</h3>
-              <div className="price">$4,999</div>
-              <div className="price-period">One-time payment</div>
-              <p style={{ color: '#718096', marginBottom: '2rem' }}>For large businesses with complex needs</p>
+              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>AI Integration</h3>
+              <div className="price">Custom</div>
+              <div className="price-period">Tailored consultation</div>
+              <p style={{ color: '#718096', marginBottom: '2rem' }}>For AI features and advanced automation</p>
               
               <ul className="pricing-features">
-                <li>Unlimited pages</li>
-                <li>Custom web application</li>
-                <li>Advanced functionality</li>
-                <li>Database integration</li>
-                <li>API development</li>
-                <li>User authentication</li>
-                <li>Advanced security</li>
-                <li>6 months of support</li>
-                <li>Priority support</li>
-                <li>Performance monitoring</li>
+                <li>Custom AI solutions</li>
+                <li>Chatbot development</li>
+                <li>Automation tools</li>
+                <li>AI-powered features</li>
+                <li>Smart SEO integration</li>
+                <li>Performance optimization</li>
+                <li>Custom integrations</li>
+                <li>Ongoing consultation</li>
+                <li><strong>Contact us for quote</strong></li>
               </ul>
               
               <Link to="/contact" className="cta-button" style={{ marginTop: '2rem' }}>
-                Get Started
+                Get Quote
               </Link>
             </div>
           </div>
@@ -143,28 +143,28 @@ const Pricing = () => {
             <div className="card">
               <div className="card-icon">📊</div>
               <h3>Monthly Maintenance</h3>
-              <p>Ongoing updates, security patches, and performance optimization.</p>
+              <p>Unlimited edits, security patches, and performance optimization.</p>
               <div style={{ 
                 fontSize: '1.5rem', 
                 fontWeight: '700', 
                 color: '#667eea', 
                 marginTop: '1rem' 
               }}>
-                $199/month
+                $100/month
               </div>
             </div>
             
             <div className="card">
-              <div className="card-icon">📈</div>
-              <h3>SEO Services</h3>
-              <p>Ongoing search engine optimization to improve your rankings.</p>
+              <div className="card-icon">🔧</div>
+              <h3>One-time Edits</h3>
+              <p>Quick fixes and updates to your existing website.</p>
               <div style={{ 
                 fontSize: '1.5rem', 
                 fontWeight: '700', 
                 color: '#667eea', 
                 marginTop: '1rem' 
               }}>
-                $299/month
+                $20 per fix
               </div>
             </div>
           </div>

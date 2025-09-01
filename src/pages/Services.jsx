@@ -7,8 +7,8 @@ const Services = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1>Our Web Development Services</h1>
-          <p>Comprehensive web solutions tailored to your business needs and goals</p>
+          <h1>Our Website Design Services</h1>
+          <p>Comprehensive web solutions tailored to your business needs and goals, with AI integration capabilities</p>
         </div>
       </section>
 
@@ -21,25 +21,27 @@ const Services = () => {
           <div className="cards-grid">
             <div className="card">
               <div className="card-icon">🌐</div>
-              <h3>Custom Website Development</h3>
-              <p>Professional websites built from scratch, perfectly tailored to your brand and business requirements.</p>
+              <h3>Static Website Package</h3>
+              <p>Professional 5-page websites built from scratch, perfectly tailored to your brand and business requirements.</p>
               <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem', color: '#718096' }}>
                 <li>Responsive design for all devices</li>
                 <li>SEO optimization</li>
                 <li>Content management system</li>
                 <li>Fast loading times</li>
+                <li><strong>Starting at $1,200</strong></li>
               </ul>
             </div>
             
             <div className="card">
               <div className="card-icon">📱</div>
-              <h3>Web Applications</h3>
-              <p>Custom web applications that streamline your business processes and improve efficiency.</p>
+              <h3>Custom Website Development</h3>
+              <p>Custom websites with database & login systems that streamline your business processes and improve efficiency.</p>
               <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem', color: '#718096' }}>
                 <li>User authentication & management</li>
                 <li>Database integration</li>
                 <li>API development</li>
                 <li>Real-time updates</li>
+                <li><strong>Starting from $2,500+</strong></li>
               </ul>
             </div>
             
@@ -69,25 +71,26 @@ const Services = () => {
             
             <div className="card">
               <div className="card-icon">🔧</div>
-              <h3>Website Maintenance</h3>
+              <h3>Website Maintenance & Support</h3>
               <p>Ongoing support and maintenance to keep your website secure, updated, and performing optimally.</p>
               <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem', color: '#718096' }}>
+                <li>One-time edits: $20 per fix</li>
+                <li>Unlimited edits plan: $100/month</li>
                 <li>Security updates</li>
                 <li>Performance optimization</li>
-                <li>Content updates</li>
-                <li>24/7 monitoring</li>
               </ul>
             </div>
             
             <div className="card">
-              <div className="card-icon">📈</div>
-              <h3>SEO & Digital Marketing</h3>
-              <p>Search engine optimization and digital marketing strategies to increase your online visibility.</p>
+              <div className="card-icon">🤖</div>
+              <h3>AI Integration & Consulting</h3>
+              <p>Custom AI solutions and consultation to give your business competitive advantages in the digital age.</p>
               <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem', color: '#718096' }}>
-                <li>Keyword research & optimization</li>
-                <li>Content strategy</li>
-                <li>Link building</li>
-                <li>Analytics & reporting</li>
+                <li>Custom AI solutions</li>
+                <li>Chatbot development</li>
+                <li>Automation tools</li>
+                <li>AI-powered features</li>
+                <li>Consultation process</li>
               </ul>
             </div>
           </div>

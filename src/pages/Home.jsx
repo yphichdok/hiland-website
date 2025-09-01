@@ -10,8 +10,8 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1>Transform Your Business with HILAND TECH</h1>
-          <p>We create stunning, responsive websites and web applications that help businesses grow and succeed in the digital world.</p>
+          <h1>Professional Website Design That Drives Business Growth</h1>
+          <p>In today's AI-driven era, a modern, sophisticated, and professional website is not just your brand's face—it's a powerful tool to attract customers, elevate your business image, and create competitive advantages.</p>
           <Link to="/contact" className="cta-button">Get Started Today</Link>
         </div>
       </section>
@@ -19,44 +19,102 @@ const Home = () => {
       {/* Features Section */}
       <section className="section">
         <div className="section-container">
-          <h2 className="section-title">Why Choose HILAND TECH?</h2>
-          <p className="section-subtitle">We combine cutting-edge technology with creative design to deliver exceptional results for our clients.</p>
+          <h2 className="section-title">Why Choose Hiland Tech?</h2>
+          <p className="section-subtitle">We combine cutting-edge technology with creative design to deliver exceptional results for businesses across diverse industries.</p>
           
           <div className="cards-grid">
             <div className="card fade-in-up">
-              <div className="card-icon">🚀</div>
-              <h3>Fast & Responsive</h3>
-              <p>Lightning-fast websites that work perfectly on all devices. We optimize for speed and user experience.</p>
+              <div className="card-icon">🎨</div>
+              <h3>Elegant Modern Design</h3>
+              <p>Beautiful, contemporary designs tailored to each industry that capture your brand's essence and engage your audience.</p>
             </div>
             
             <div className="card fade-in-up">
-              <div className="card-icon">💡</div>
-              <h3>Modern Design</h3>
-              <p>Beautiful, contemporary designs that capture your brand's essence and engage your audience.</p>
+              <div className="card-icon">🤖</div>
+              <h3>AI Integration</h3>
+              <p>Cutting-edge AI technologies including chatbots, smart SEO, and automation tools to give you competitive advantages.</p>
+            </div>
+            
+            <div className="card fade-in-up">
+              <div className="card-icon">⚡</div>
+              <h3>Optimal Performance</h3>
+              <p>Lightning-fast websites with optimal speed and performance across all devices and platforms.</p>
             </div>
             
             <div className="card fade-in-up">
               <div className="card-icon">🔧</div>
-              <h3>Custom Development</h3>
-              <p>Tailored solutions built specifically for your business needs and goals.</p>
+              <h3>Custom Solutions</h3>
+              <p>Flexible solutions that match your exact needs and budget, built specifically for your business goals.</p>
             </div>
             
             <div className="card fade-in-up">
               <div className="card-icon">📱</div>
-              <h3>Mobile-First</h3>
-              <p>Websites designed for mobile users first, ensuring great experience across all devices.</p>
+              <h3>Mobile-First Design</h3>
+              <p>Websites designed for mobile users first, ensuring great experience across all devices and screen sizes.</p>
             </div>
             
             <div className="card fade-in-up">
-              <div className="card-icon">🔒</div>
-              <h3>Secure & Reliable</h3>
-              <p>Enterprise-grade security and 99.9% uptime guarantee for your peace of mind.</p>
+              <div className="card-icon">📊</div>
+              <h3>Easy Management</h3>
+              <p>User-friendly content management systems that make it easy to update and maintain your website.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Industry Expertise Section */}
+      <section className="section" style={{ backgroundColor: '#f8fafc' }}>
+        <div className="section-container">
+          <h2 className="section-title">Industry Expertise</h2>
+          <p className="section-subtitle">We have successfully completed numerous projects across diverse industries</p>
+          
+          <div className="cards-grid">
+            <div className="card">
+              <div className="card-icon">💅</div>
+              <h3>Beauty & Wellness</h3>
+              <p>Nail salons, spas, beauty salons with elegant designs that showcase your services and attract clients.</p>
             </div>
             
-            <div className="card fade-in-up">
-              <div className="card-icon">📈</div>
-              <h3>SEO Optimized</h3>
-              <p>Built-in SEO best practices to help your website rank higher in search results.</p>
+            <div className="card">
+              <div className="card-icon">💰</div>
+              <h3>Financial Services</h3>
+              <p>Insurance, financial consulting with professional designs that build trust and credibility.</p>
+            </div>
+            
+            <div className="card">
+              <div className="card-icon">🍽️</div>
+              <h3>Food & Hospitality</h3>
+              <p>Restaurants, cafes, dining establishments with appetizing designs that drive reservations.</p>
+            </div>
+            
+            <div className="card">
+              <div className="card-icon">🚀</div>
+              <h3>Technology & Startups</h3>
+              <p>Tech companies, innovative businesses with cutting-edge designs that showcase innovation.</p>
+            </div>
+            
+            <div className="card">
+              <div className="card-icon">⛪</div>
+              <h3>Non-profit Organizations</h3>
+              <p>Churches, community organizations with meaningful designs that connect with your community.</p>
+            </div>
+            
+            <div className="card">
+              <div className="card-icon">🏠</div>
+              <h3>Real Estate & Legal</h3>
+              <p>Property management, law firms with sophisticated designs that convey professionalism.</p>
+            </div>
+            
+            <div className="card">
+              <div className="card-icon">🎓</div>
+              <h3>Education & Training</h3>
+              <p>Schools, training centers, educational institutions with engaging designs that inspire learning.</p>
+            </div>
+            
+            <div className="card">
+              <div className="card-icon">🛒</div>
+              <h3>E-commerce & Retail</h3>
+              <p>Online stores, digital marketplaces with conversion-focused designs that drive sales.</p>
             </div>
           </div>
         </div>

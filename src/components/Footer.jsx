@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>HILAND TECH</h3>
-          <p>Professional web development solutions for modern businesses. We create stunning, responsive websites and web applications that drive results.</p>
+          <h3>Hiland Tech</h3>
+          <p>Custom website design company based in Minnesota. We create elegant, modern designs tailored to each industry with AI integration capabilities.</p>
         </div>
         
         <div className="footer-section">
@@ -34,9 +34,9 @@ const Footer = () => {
         
         <div className="footer-section">
           <h3>Contact Info</h3>
-          <p>Email: info@webdevservices.com</p>
-          <p>Phone: +1 (555) 123-4567</p>
-          <p>Address: 123 Web Street, Digital City, DC 12345</p>
+          <p>Email: info@hilandtech.com</p>
+          <p>Phone: Contact for details</p>
+          <p>Address: Minnesota, United States</p>
         </div>
       </div>
       

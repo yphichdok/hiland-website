@@ -6,8 +6,8 @@ const About = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1>About HILAND TECH</h1>
-          <p>We're a passionate team of web developers, designers, and digital strategists dedicated to helping businesses succeed online.</p>
+          <h1>About Hiland Tech</h1>
+          <p>We're a custom website design company based in Minnesota with years of experience in web design and development, successfully completing numerous projects across diverse industries.</p>
         </div>
       </section>
 
@@ -20,10 +20,10 @@ const About = () => {
                 Our Mission
               </h2>
               <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: '#4a5568', marginBottom: '1.5rem' }}>
-                To empower businesses with cutting-edge web solutions that drive growth, enhance user experience, and create lasting digital impact.
+                We believe that every website is not just an information page, but a brand story told through technology and creativity. We're committed to delivering elegant, modern designs tailored to each industry.
               </p>
               <p style={{ fontSize: '1.1rem', lineHeight: '1.7', color: '#718096' }}>
-                We believe that every business deserves a website that not only looks great but also performs exceptionally well and helps achieve business objectives.
+                In today's AI-driven era, a modern, sophisticated, and professional website is not just your brand's face—it's a powerful tool to attract customers, elevate your business image, and create competitive advantages.
               </p>
             </div>
             <div style={{ textAlign: 'center' }}>
@@ -49,27 +49,27 @@ const About = () => {
           
           <div className="cards-grid">
             <div className="card">
-              <div className="card-icon">💎</div>
-              <h3>Quality First</h3>
-              <p>We never compromise on quality. Every project is crafted with attention to detail and best practices.</p>
+              <div className="card-icon">🎨</div>
+              <h3>Elegant Design</h3>
+              <p>We create beautiful, contemporary designs tailored to each industry that capture your brand's essence.</p>
             </div>
             
             <div className="card">
-              <div className="card-icon">🤝</div>
-              <h3>Client Partnership</h3>
-              <p>We work closely with our clients, treating every project as a partnership and ensuring their success.</p>
+              <div className="card-icon">🤖</div>
+              <h3>AI Integration</h3>
+              <p>We integrate cutting-edge AI technologies including chatbots, smart SEO, and automation tools.</p>
             </div>
             
             <div className="card">
-              <div className="card-icon">🚀</div>
-              <h3>Innovation</h3>
-              <p>We stay ahead of the curve, using the latest technologies and trends to deliver cutting-edge solutions.</p>
+              <div className="card-icon">⚡</div>
+              <h3>Performance Focus</h3>
+              <p>We optimize for optimal speed and performance across all devices and platforms.</p>
             </div>
             
             <div className="card">
-              <div className="card-icon">⏰</div>
-              <h3>Reliability</h3>
-              <p>We deliver projects on time, every time, with transparent communication throughout the process.</p>
+              <div className="card-icon">🔧</div>
+              <h3>Custom Solutions</h3>
+              <p>We provide flexible solutions that match your exact needs and budget requirements.</p>
             </div>
           </div>
         </div>

@@ -78,9 +78,9 @@ const Contact = () => {
               
               <div style={{ marginBottom: '2rem' }}>
                 <h3 style={{ color: '#667eea', marginBottom: '1rem', fontSize: '1.3rem' }}>📍 Address</h3>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>123 Web Street</p>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>Digital City, DC 12345</p>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>United States</p>
+                <p style={{ color: '#718096', fontSize: '1.1rem' }}>Minnesota, United States</p>
+                <p style={{ color: '#718096', fontSize: '1.1rem' }}>Serving businesses across Minnesota</p>
+                <p style={{ color: '#718096', fontSize: '1.1rem' }}>and beyond</p>
               </div>
               
               <div>
