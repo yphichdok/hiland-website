@@ -72,7 +72,8 @@ const Contact = () => {
               
               <div style={{ marginBottom: '2rem' }}>
                 <h3 style={{ color: '#667eea', marginBottom: '1rem', fontSize: '1.3rem' }}>📞 Phone</h3>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>952-245-9629</p>
+                <p style={{ color: '#718096', fontSize: '1.1rem' }}>Minnesota: 952-245-9629</p>
+                <p style={{ color: '#718096', fontSize: '1.1rem' }}>California: 714-912-3163</p>
                 <p style={{ color: '#718096', fontSize: '1.1rem' }}>Mon-Fri: 9:00 AM - 6:00 PM PST</p>
               </div>
               
