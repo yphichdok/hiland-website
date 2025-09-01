@@ -1,0 +1,181 @@
+import React from 'react'
+
+const About = () => {
+  return (
+    <div className="about">
+      {/* Hero Section */}
+      <section className="hero">
+        <div className="hero-content">
+          <h1>About WebDev Services</h1>
+          <p>We're a passionate team of web developers, designers, and digital strategists dedicated to helping businesses succeed online.</p>
+        </div>
+      </section>
+
+      {/* Mission Section */}
+      <section className="section">
+        <div className="section-container">
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+            <div>
+              <h2 className="section-title" style={{ textAlign: 'left', marginBottom: '2rem' }}>
+                Our Mission
+              </h2>
+              <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: '#4a5568', marginBottom: '1.5rem' }}>
+                To empower businesses with cutting-edge web solutions that drive growth, enhance user experience, and create lasting digital impact.
+              </p>
+              <p style={{ fontSize: '1.1rem', lineHeight: '1.7', color: '#718096' }}>
+                We believe that every business deserves a website that not only looks great but also performs exceptionally well and helps achieve business objectives.
+              </p>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ 
+                fontSize: '8rem', 
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text'
+              }}>
+                🎯
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Values Section */}
+      <section className="section" style={{ backgroundColor: '#f7fafc' }}>
+        <div className="section-container">
+          <h2 className="section-title">Our Core Values</h2>
+          <p className="section-subtitle">The principles that guide everything we do</p>
+          
+          <div className="cards-grid">
+            <div className="card">
+              <div className="card-icon">💎</div>
+              <h3>Quality First</h3>
+              <p>We never compromise on quality. Every project is crafted with attention to detail and best practices.</p>
+            </div>
+            
+            <div className="card">
+              <div className="card-icon">🤝</div>
+              <h3>Client Partnership</h3>
+              <p>We work closely with our clients, treating every project as a partnership and ensuring their success.</p>
+            </div>
+            
+            <div className="card">
+              <div className="card-icon">🚀</div>
+              <h3>Innovation</h3>
+              <p>We stay ahead of the curve, using the latest technologies and trends to deliver cutting-edge solutions.</p>
+            </div>
+            
+            <div className="card">
+              <div className="card-icon">⏰</div>
+              <h3>Reliability</h3>
+              <p>We deliver projects on time, every time, with transparent communication throughout the process.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section className="section">
+        <div className="section-container">
+          <h2 className="section-title">Meet Our Team</h2>
+          <p className="section-subtitle">The talented professionals behind our success</p>
+          
+          <div className="cards-grid">
+            <div className="card">
+              <div style={{ 
+                width: '120px', 
+                height: '120px', 
+                borderRadius: '50%', 
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '3rem',
+                color: 'white'
+              }}>
+                👨‍💻
+              </div>
+              <h3>John Smith</h3>
+              <p style={{ color: '#667eea', fontWeight: '600', marginBottom: '1rem' }}>Lead Developer</p>
+              <p>Full-stack developer with 8+ years of experience in modern web technologies and frameworks.</p>
+            </div>
+            
+            <div className="card">
+              <div style={{ 
+                width: '120px', 
+                height: '120px', 
+                borderRadius: '50%', 
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '3rem',
+                color: 'white'
+              }}>
+                🎨
+              </div>
+              <h3>Sarah Johnson</h3>
+              <p style={{ color: '#667eea', fontWeight: '600', marginBottom: '1rem' }}>UI/UX Designer</p>
+              <p>Creative designer passionate about creating beautiful, intuitive user experiences that convert.</p>
+            </div>
+            
+            <div className="card">
+              <div style={{ 
+                width: '120px', 
+                height: '120px', 
+                borderRadius: '50%', 
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '3rem',
+                color: 'white'
+              }}>
+                📊
+              </div>
+              <h3>Mike Chen</h3>
+              <p style={{ color: '#667eea', fontWeight: '600', marginBottom: '1rem' }}>Project Manager</p>
+              <p>Experienced project manager ensuring smooth delivery and exceptional client satisfaction.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section */}
+      <section className="section" style={{ backgroundColor: '#2d3748', color: 'white' }}>
+        <div className="section-container">
+          <h2 className="section-title" style={{ color: 'white' }}>Our Impact</h2>
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', 
+            gap: '3rem',
+            textAlign: 'center'
+          }}>
+            <div>
+              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#667eea', marginBottom: '0.5rem' }}>150+</div>
+              <div style={{ fontSize: '1.2rem' }}>Projects Completed</div>
+            </div>
+            <div>
+              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#667eea', marginBottom: '0.5rem' }}>98%</div>
+              <div style={{ fontSize: '1.2rem' }}>Client Satisfaction</div>
+            </div>
+            <div>
+              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#667eea', marginBottom: '0.5rem' }}>5+</div>
+              <div style={{ fontSize: '1.2rem' }}>Years Experience</div>
+            </div>
+            <div>
+              <div style={{ fontSize: '3rem', fontWeight: '700', color: '#667eea', marginBottom: '0.5rem' }}>24/7</div>
+              <div style={{ fontSize: '1.2rem' }}>Support Available</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
+
+export default About
