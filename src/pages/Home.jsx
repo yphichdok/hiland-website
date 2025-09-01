@@ -5,6 +5,7 @@ import Logo from '../components/Logo'
 import Testimonials from '../components/Testimonials'
 import Portfolio from '../components/Portfolio'
 import Blog from '../components/Blog'
+import TrustedClients from '../components/TrustedClients'
 
 const Home = () => {
   return (
@@ -164,6 +165,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Trusted Clients Section */}
+      <TrustedClients />
 
       {/* Testimonials Section */}
       <Testimonials />

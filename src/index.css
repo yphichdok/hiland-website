@@ -1918,3 +1918,138 @@ a:focus {
     font-size: 0.9em;
   }
 }
+
+/* Trusted Clients Section */
+.trusted-clients-section {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.trusted-clients-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(0, 212, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(124, 58, 237, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.clients-container {
+  position: relative;
+  overflow: hidden;
+  margin: 3rem 0;
+  padding: 2rem 0;
+}
+
+.clients-scroll {
+  display: flex;
+  animation: scrollRightToLeft 30s linear infinite;
+  width: max-content;
+}
+
+.client-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2rem;
+  min-width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.client-logo:hover {
+  transform: translateY(-5px);
+}
+
+.logo-placeholder {
+  width: 120px;
+  height: 80px;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
+  border: 2px solid rgba(0, 212, 255, 0.3);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 212, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.logo-placeholder:hover {
+  border-color: rgba(0, 212, 255, 0.6);
+  box-shadow: 0 12px 40px rgba(0, 212, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.client-name {
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.clients-note {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.clients-note p {
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.3);
+  border: 2px solid transparent;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px rgba(0, 212, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes scrollRightToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive adjustments for clients section */
+@media (max-width: 768px) {
+  .client-logo {
+    margin: 0 1rem;
+    min-width: 120px;
+  }
+  
+  .logo-placeholder {
+    width: 100px;
+    height: 70px;
+    font-size: 2rem;
+  }
+  
+  .clients-scroll {
+    animation-duration: 20s;
+  }
+}
