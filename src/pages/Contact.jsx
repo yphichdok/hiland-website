@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Helmet } from 'react-helmet'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -37,6 +38,48 @@ const Contact = () => {
 
   return (
     <div className="contact">
+      <Helmet>
+        <title>Contact Hiland Tech - Get Website Design Quote | Minnesota & California</title>
+        <meta name="description" content="Contact Hiland Tech for website design services. Get a free quote for your project. Minnesota: 952-245-9629, California: 714-912-3163. Serving businesses nationwide." />
+        <meta name="keywords" content="contact Hiland Tech, website design quote, Minnesota web designer contact, California web design contact, get website quote, web design consultation" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="Contact Hiland Tech - Get Website Design Quote" />
+        <meta property="og:description" content="Contact us for website design services. Minnesota: 952-245-9629, California: 714-912-3163." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hiland.tech/contact" />
+        
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": "Contact Hiland Tech",
+            "description": "Contact page for website design services",
+            "url": "https://hiland.tech/contact",
+            "mainEntity": {
+              "@type": "Organization",
+              "name": "Hiland Tech",
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "telephone": "+19522459629",
+                  "contactType": "customer service",
+                  "areaServed": "US-MN",
+                  "availableLanguage": "English"
+                },
+                {
+                  "@type": "ContactPoint",
+                  "telephone": "+17149123163",
+                  "contactType": "customer service",
+                  "areaServed": "US-CA",
+                  "availableLanguage": "English"
+                }
+              ]
+            }
+          })}
+        </script>
+      </Helmet>
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">

@@ -1,9 +1,38 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Logo from '../components/Logo'
 
 const About = () => {
   return (
     <div className="about">
+      <Helmet>
+        <title>About Hiland Tech - Custom Website Design Company in Minnesota & California</title>
+        <meta name="description" content="Learn about Hiland Tech, a custom website design company based in Minnesota with years of experience in web design and AI integration across diverse industries." />
+        <meta name="keywords" content="about Hiland Tech, Minnesota web design company, custom website development, AI integration services, web design experience, Minnesota web designer" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="About Hiland Tech - Custom Website Design Company" />
+        <meta property="og:description" content="Custom website design company with years of experience in web design and AI integration." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hiland.tech/about" />
+        
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": "About Hiland Tech",
+            "description": "Custom website design company with years of experience",
+            "url": "https://hiland.tech/about",
+            "mainEntity": {
+              "@type": "Organization",
+              "name": "Hiland Tech",
+              "description": "Custom website design company",
+              "areaServed": ["Minnesota", "California"]
+            }
+          })}
+        </script>
+      </Helmet>
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">

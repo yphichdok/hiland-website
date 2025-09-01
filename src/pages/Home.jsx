@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 import Logo from '../components/Logo'
 import Testimonials from '../components/Testimonials'
 import Portfolio from '../components/Portfolio'
@@ -8,6 +9,41 @@ import Blog from '../components/Blog'
 const Home = () => {
   return (
     <div className="home">
+      <Helmet>
+        <title>Hiland Tech - Professional Website Design Services in Minnesota & California</title>
+        <meta name="description" content="Transform your business with professional website design from Hiland Tech. AI integration, responsive design, and custom solutions starting at $1,000. Serving Minnesota and California." />
+        <meta name="keywords" content="website design Minnesota, professional web design, AI website integration, custom website development, business website design, responsive design, Minnesota web designer, California web design" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="Hiland Tech - Professional Website Design Services" />
+        <meta property="og:description" content="Transform your business with professional website design. AI integration and custom solutions starting at $1,000." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hiland.tech/" />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:title" content="Hiland Tech - Professional Website Design" />
+        <meta name="twitter:description" content="Professional website design with AI integration. Starting at $1,000." />
+        
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Hiland Tech - Professional Website Design Services",
+            "description": "Professional website design services with AI integration",
+            "url": "https://hiland.tech/",
+            "mainEntity": {
+              "@type": "Service",
+              "name": "Website Design Services",
+              "provider": {
+                "@type": "LocalBusiness",
+                "name": "Hiland Tech",
+                "areaServed": ["Minnesota", "California"]
+              }
+            }
+          })}
+        </script>
+      </Helmet>
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">

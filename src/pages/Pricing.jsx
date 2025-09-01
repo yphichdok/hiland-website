@@ -1,9 +1,51 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
 const Pricing = () => {
   return (
     <div className="pricing">
+      <Helmet>
+        <title>Website Design Pricing - Hiland Tech | Starting at $1,000</title>
+        <meta name="description" content="Transparent website design pricing: Static websites $1,200 (first-time clients $1,000), custom development $2,500+, AI integration custom pricing. Minnesota & California." />
+        <meta name="keywords" content="website design pricing, web design cost, custom website pricing, AI integration pricing, Minnesota web design pricing, California web design cost, affordable website design" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="Website Design Pricing - Hiland Tech" />
+        <meta property="og:description" content="Transparent pricing: Static websites $1,200, custom development $2,500+. First-time client discount available." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hiland.tech/pricing" />
+        
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "PriceSpecification",
+            "name": "Website Design Pricing",
+            "description": "Transparent pricing for website design services",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Hiland Tech"
+            },
+            "priceSpecification": [
+              {
+                "@type": "UnitPriceSpecification",
+                "name": "Static Website Package",
+                "price": "1200",
+                "priceCurrency": "USD",
+                "description": "5-page responsive website"
+              },
+              {
+                "@type": "UnitPriceSpecification",
+                "name": "Custom Website Development",
+                "price": "2500",
+                "priceCurrency": "USD",
+                "description": "Custom websites with database"
+              }
+            ]
+          })}
+        </script>
+      </Helmet>
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">

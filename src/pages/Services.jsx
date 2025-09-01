@@ -1,9 +1,49 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
 const Services = () => {
   return (
     <div className="services">
+      <Helmet>
+        <title>Website Design Services - Hiland Tech | Minnesota & California</title>
+        <meta name="description" content="Professional website design services including static websites ($1,200), custom development ($2,500+), AI integration, and maintenance. Serving Minnesota and California businesses." />
+        <meta name="keywords" content="website design services, custom website development, AI integration, website maintenance, Minnesota web design, California web design, responsive design, SEO optimization" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="Website Design Services - Hiland Tech" />
+        <meta property="og:description" content="Professional website design services with AI integration. Starting at $1,200." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hiland.tech/services" />
+        
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Website Design Services",
+            "description": "Professional website design services with AI integration",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Hiland Tech"
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Static Website Package",
+                "price": "1200",
+                "priceCurrency": "USD"
+              },
+              {
+                "@type": "Offer",
+                "name": "Custom Website Development",
+                "price": "2500",
+                "priceCurrency": "USD"
+              }
+            ]
+          })}
+        </script>
+      </Helmet>
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
