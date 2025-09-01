@@ -56,6 +56,148 @@ main {
   text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* AI Gradient Logo Text */
+.logo span {
+  background: linear-gradient(135deg, #00d4ff 0%, #7c3aed 25%, #06b6d4 50%, #3b82f6 75%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 200%;
+  animation: aiGradient 3s ease-in-out infinite, textGlow 2s ease-in-out infinite alternate;
+  text-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  position: relative;
+}
+
+.logo span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #00d4ff 0%, #7c3aed 25%, #06b6d4 50%, #3b82f6 75%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 200%;
+  animation: aiGradient 3s ease-in-out infinite reverse;
+  opacity: 0.7;
+  filter: blur(1px);
+  z-index: -1;
+}
+
+/* AI Gradient Animation */
+@keyframes aiGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Text Glow Animation */
+@keyframes textGlow {
+  0% {
+    text-shadow: 0 0 20px rgba(0, 212, 255, 0.3), 0 0 40px rgba(124, 58, 237, 0.2);
+  }
+  100% {
+    text-shadow: 0 0 30px rgba(0, 212, 255, 0.5), 0 0 60px rgba(124, 58, 237, 0.4), 0 0 80px rgba(6, 182, 212, 0.3);
+  }
+}
+
+/* Logo Hover Effects */
+.logo:hover span {
+  animation: aiGradient 1.5s ease-in-out infinite, textGlow 1s ease-in-out infinite alternate;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.logo:hover span::before {
+  animation: aiGradient 1.5s ease-in-out infinite reverse;
+  filter: blur(0.5px);
+  opacity: 0.9;
+}
+
+/* AI Pulse Animation */
+.logo span {
+  animation: aiGradient 3s ease-in-out infinite, textGlow 2s ease-in-out infinite alternate, aiPulse 4s ease-in-out infinite;
+}
+
+@keyframes aiPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+/* Enhanced AI Glow on Focus */
+.logo:focus span {
+  animation: aiGradient 2s ease-in-out infinite, textGlow 1.5s ease-in-out infinite alternate, aiPulse 3s ease-in-out infinite;
+  text-shadow: 0 0 40px rgba(0, 212, 255, 0.6), 0 0 80px rgba(124, 58, 237, 0.5), 0 0 120px rgba(6, 182, 212, 0.4);
+}
+
+/* Cyberpunk Scan Line Effect */
+.logo span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00d4ff, transparent);
+  animation: scanLine 2s linear infinite;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+@keyframes scanLine {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+/* AI Data Stream Effect */
+.logo span::before {
+  animation: aiGradient 3s ease-in-out infinite reverse, dataStream 5s linear infinite;
+}
+
+@keyframes dataStream {
+  0% {
+    opacity: 0.7;
+    filter: blur(1px) hue-rotate(0deg);
+  }
+  25% {
+    opacity: 0.9;
+    filter: blur(0.5px) hue-rotate(90deg);
+  }
+  50% {
+    opacity: 0.7;
+    filter: blur(1px) hue-rotate(180deg);
+  }
+  75% {
+    opacity: 0.9;
+    filter: blur(0.5px) hue-rotate(270deg);
+  }
+  100% {
+    opacity: 0.7;
+    filter: blur(1px) hue-rotate(360deg);
+  }
+}
+
 /* Logo responsive adjustments */
 @media (max-width: 480px) {
   .logo {
