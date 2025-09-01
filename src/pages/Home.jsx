@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../components/Logo'
 import Testimonials from '../components/Testimonials'
 import Portfolio from '../components/Portfolio'
 import Blog from '../components/Blog'
@@ -10,6 +11,9 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+            <Logo size="large" />
+          </div>
           <h1>Professional Website Design That Drives Business Growth</h1>
           <p>In today's AI-driven era, a modern, sophisticated, and professional website is not just your brand's face—it's a powerful tool to attract customers, elevate your business image, and create competitive advantages.</p>
           <Link to="/contact" className="cta-button">Get Started Today</Link>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import Logo from './Logo'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -21,7 +22,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="logo" onClick={closeMobileMenu}>
-          HILAND TECH
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <Logo size="small" />
+            <span style={{ fontSize: '1.5rem', fontWeight: '800', color: 'white' }}>Hiland Tech</span>
+          </div>
         </Link>
         
         <button className="mobile-menu-btn" onClick={toggleMobileMenu}>

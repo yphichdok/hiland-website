@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../components/Logo'
 
 const About = () => {
   return (
@@ -6,6 +7,9 @@ const About = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+            <Logo size="large" />
+          </div>
           <h1>About Hiland Tech</h1>
           <p>We're a custom website design company based in Minnesota with years of experience in web design and development, successfully completing numerous projects across diverse industries.</p>
         </div>

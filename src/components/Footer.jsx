@@ -1,12 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from './Logo'
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>Hiland Tech</h3>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '1rem' }}>
+            <Logo size="small" />
+            <h3>Hiland Tech</h3>
+          </div>
           <p>Custom website design company based in Minnesota. We create elegant, modern designs tailored to each industry with AI integration capabilities.</p>
         </div>
         
@@ -41,7 +45,7 @@ const Footer = () => {
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; 2024 WebDev Services. All rights reserved.</p>
+        <p>&copy; 2024 Hiland Tech. All rights reserved.</p>
       </div>
     </footer>
   )
