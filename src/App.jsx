@@ -4,7 +4,6 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import DynamicSEO from './components/DynamicSEO'
 import ScrollToTop from './components/ScrollToTop'
-import SocialMediaDebug from './components/SocialMediaDebug'
 import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
@@ -44,7 +43,6 @@ function App() {
         </main>
         <Footer />
         <ScrollToTop />
-        <SocialMediaDebug />
       </div>
     </Router>
   )
