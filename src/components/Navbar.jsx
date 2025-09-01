@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import Logo from './Logo'
 
@@ -14,6 +14,23 @@ const Navbar = () => {
     setIsMobileMenuOpen(false)
   }
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
+  const handleNavigation = () => {
+    closeMobileMenu()
+    scrollToTop()
+  }
+
+  // Scroll to top when route changes
+  useEffect(() => {
+    scrollToTop()
+  }, [location.pathname])
+
   const isActive = (path) => {
     return location.pathname === path
   }
@@ -21,7 +38,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <Link to="/" className="logo" onClick={closeMobileMenu}>
+        <Link to="/" className="logo" onClick={handleNavigation}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <Logo 
               size="default" 
@@ -42,7 +59,7 @@ const Navbar = () => {
             <Link 
               to="/" 
               className={isActive('/') ? 'active' : ''} 
-              onClick={closeMobileMenu}
+              onClick={handleNavigation}
             >
               Home
             </Link>
@@ -51,7 +68,7 @@ const Navbar = () => {
             <Link 
               to="/about" 
               className={isActive('/about') ? 'active' : ''} 
-              onClick={closeMobileMenu}
+              onClick={handleNavigation}
             >
               About
             </Link>
@@ -60,7 +77,7 @@ const Navbar = () => {
             <Link 
               to="/services" 
               className={isActive('/services') ? 'active' : ''} 
-              onClick={closeMobileMenu}
+              onClick={handleNavigation}
             >
               Services
             </Link>
@@ -69,7 +86,7 @@ const Navbar = () => {
             <Link 
               to="/pricing" 
               className={isActive('/pricing') ? 'active' : ''} 
-              onClick={closeMobileMenu}
+              onClick={handleNavigation}
             >
               Pricing
             </Link>
@@ -78,7 +95,7 @@ const Navbar = () => {
             <Link 
               to="/contact" 
               className={isActive('/contact') ? 'active' : ''} 
-              onClick={closeMobileMenu}
+              onClick={handleNavigation}
             >
               Contact
             </Link>
