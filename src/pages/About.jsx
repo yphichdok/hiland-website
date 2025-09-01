@@ -147,8 +147,8 @@ const About = () => {
             
             <div className="card">
               <div style={{ 
-                width: '120px', 
-                height: '120px', 
+                width: '140px', 
+                height: '140px', 
                 borderRadius: '50%', 
                 margin: '0 auto 1.5rem',
                 overflow: 'hidden',
@@ -159,9 +159,13 @@ const About = () => {
                   src="/assets/images/team/Mr.Huy.JPEG" 
                   alt="Huy - UI/UX Designer"
                   style={{
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover'
+                    width: '120%',
+                    height: '120%',
+                    objectFit: 'cover',
+                    objectPosition: 'center',
+                    transform: 'scale(1.2)',
+                    marginLeft: '-10%',
+                    marginTop: '-10%'
                   }}
                 />
               </div>

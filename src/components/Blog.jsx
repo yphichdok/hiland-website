@@ -4,10 +4,10 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "The Future of Web Development in 2024",
+      title: "The Future of Web Development in 2025",
       excerpt: "Explore the latest trends and technologies that are shaping the future of web development, from AI integration to advanced CSS features.",
       category: "Technology",
-      date: "March 15, 2024",
+      date: "March 15, 2025",
       readTime: "5 min read",
       image: "🚀",
       featured: true
@@ -17,7 +17,7 @@ const Blog = () => {
       title: "Why Mobile-First Design is Crucial for SEO",
       excerpt: "Learn how mobile-first design principles can significantly improve your website's search engine rankings and user experience.",
       category: "SEO",
-      date: "March 10, 2024",
+      date: "March 10, 2025",
       readTime: "4 min read",
       image: "📱"
     },
@@ -26,7 +26,7 @@ const Blog = () => {
       title: "Building Scalable Web Applications with React",
       excerpt: "Discover best practices for creating scalable and maintainable web applications using React and modern development patterns.",
       category: "Development",
-      date: "March 5, 2024",
+      date: "March 5, 2025",
       readTime: "7 min read",
       image: "⚛️"
     },
@@ -35,16 +35,16 @@ const Blog = () => {
       title: "The Complete Guide to Website Performance Optimization",
       excerpt: "Comprehensive strategies to improve your website's loading speed, Core Web Vitals, and overall performance metrics.",
       category: "Performance",
-      date: "February 28, 2024",
+      date: "February 28, 2025",
       readTime: "8 min read",
       image: "⚡"
     },
     {
       id: 5,
-      title: "E-commerce Trends That Will Dominate 2024",
+      title: "E-commerce Trends That Will Dominate 2025",
       excerpt: "Stay ahead of the competition by implementing these cutting-edge e-commerce features and user experience improvements.",
       category: "E-commerce",
-      date: "February 20, 2024",
+      date: "February 20, 2025",
       readTime: "6 min read",
       image: "🛒"
     },
@@ -53,7 +53,7 @@ const Blog = () => {
       title: "Security Best Practices for Modern Web Applications",
       excerpt: "Essential security measures every web developer should implement to protect user data and prevent common vulnerabilities.",
       category: "Security",
-      date: "February 15, 2024",
+      date: "February 15, 2025",
       readTime: "6 min read",
       image: "🔒"
     }
