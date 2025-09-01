@@ -63,8 +63,9 @@ Use these tools to test how your images appear:
 ## 📋 **Current Status:**
 
 - ✅ **Folder created**: Ready for your social media images
-- 📝 **Add images**: Place your feature images here
-- 🔗 **Auto-integration**: Website will automatically use these images
+- ✅ **Main image added**: `hiland-feature.jpg` (174 KB)
+- 🔗 **Auto-integration**: Website now uses your feature image for social sharing
+- 📝 **Add more images**: Place additional page-specific images here
 
 ## 💡 **Tips for Great Social Media Images:**
 
