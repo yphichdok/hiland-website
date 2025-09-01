@@ -175,31 +175,35 @@ const Blog = () => {
               
               <div style={{ 
                 display: 'inline-block',
-                background: '#f7fafc',
-                color: '#667eea',
+                background: 'rgba(124, 58, 237, 0.1)',
+                color: '#7c3aed',
                 padding: '0.25rem 0.75rem',
                 borderRadius: '15px',
                 fontSize: '0.8rem',
                 fontWeight: '500',
-                marginBottom: '1rem'
+                marginBottom: '1rem',
+                border: '1px solid rgba(124, 58, 237, 0.3)',
+                textShadow: '0 0 5px rgba(124, 58, 237, 0.3)'
               }}>
                 {post.category}
               </div>
               
               <h3 style={{ 
                 fontSize: '1.3rem', 
-                fontWeight: '600', 
-                color: '#2d3748',
+                fontWeight: '700', 
+                color: '#ffffff',
                 marginBottom: '1rem',
-                lineHeight: '1.4'
+                lineHeight: '1.4',
+                textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)'
               }}>
                 {post.title}
               </h3>
               
               <p style={{ 
-                color: '#718096', 
+                color: '#f1f5f9', 
                 lineHeight: '1.6',
-                marginBottom: '1.5rem'
+                marginBottom: '1.5rem',
+                textShadow: '0 2px 4px rgba(0,0,0,0.2)'
               }}>
                 {post.excerpt}
               </p>
@@ -209,8 +213,9 @@ const Blog = () => {
                 alignItems: 'center', 
                 gap: '1rem',
                 marginBottom: '1.5rem',
-                color: '#718096',
-                fontSize: '0.9rem'
+                color: '#94a3b8',
+                fontSize: '0.9rem',
+                textShadow: '0 1px 2px rgba(0,0,0,0.2)'
               }}>
                 <span>{post.date}</span>
                 <span>•</span>
@@ -219,11 +224,12 @@ const Blog = () => {
               
               <a href="#" style={{
                 display: 'inline-block',
-                color: '#667eea',
+                color: '#00d4ff',
                 textDecoration: 'none',
                 fontWeight: '600',
                 fontSize: '0.9rem',
-                transition: 'color 0.3s ease'
+                transition: 'color 0.3s ease',
+                textShadow: '0 0 5px rgba(0, 212, 255, 0.3)'
               }}>
                 Read More →
               </a>
@@ -233,7 +239,7 @@ const Blog = () => {
         
         {/* Newsletter Signup */}
         <div style={{ 
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          background: 'linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%)',
           borderRadius: '20px',
           padding: '3rem',
           marginTop: '4rem',

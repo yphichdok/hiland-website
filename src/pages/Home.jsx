@@ -178,10 +178,10 @@ const Home = () => {
       <section className="section" style={{ backgroundColor: '#f7fafc' }}>
         <div className="section-container">
           <div style={{ textAlign: 'center' }}>
-            <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: '#2d3748' }}>
+            <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>
               Ready to Get Started?
             </h2>
-            <p style={{ fontSize: '1.2rem', marginBottom: '2rem', color: '#718096' }}>
+            <p style={{ fontSize: '1.2rem', marginBottom: '2rem', color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
               Let's discuss your project and create something amazing together.
             </p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -191,14 +191,15 @@ const Home = () => {
               <Link to="/pricing" style={{
                 display: 'inline-block',
                 background: 'transparent',
-                color: '#667eea',
+                color: '#00d4ff',
                 padding: '1rem 2rem',
                 textDecoration: 'none',
                 borderRadius: '50px',
                 fontWeight: '600',
                 fontSize: '1.1rem',
-                border: '2px solid #667eea',
-                transition: 'all 0.3s ease'
+                border: '2px solid #00d4ff',
+                transition: 'all 0.3s ease',
+                textShadow: '0 0 5px rgba(0, 212, 255, 0.3)'
               }}>
                 View Pricing
               </Link>

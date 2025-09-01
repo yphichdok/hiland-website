@@ -120,19 +120,21 @@ const Portfolio = () => {
               
               <h3 style={{ 
                 fontSize: '1.4rem', 
-                fontWeight: '600', 
-                color: '#2d3748',
+                fontWeight: '700', 
+                color: '#ffffff',
                 marginBottom: '1rem',
-                textAlign: 'center'
+                textAlign: 'center',
+                textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)'
               }}>
                 {item.title}
               </h3>
               
               <p style={{ 
-                color: '#718096', 
+                color: '#f1f5f9', 
                 lineHeight: '1.6',
                 marginBottom: '1.5rem',
-                textAlign: 'center'
+                textAlign: 'center',
+                textShadow: '0 2px 4px rgba(0,0,0,0.2)'
               }}>
                 {item.description}
               </p>
@@ -146,13 +148,14 @@ const Portfolio = () => {
               }}>
                 {item.technologies.map((tech, index) => (
                   <span key={index} style={{
-                    background: '#f7fafc',
-                    color: '#667eea',
+                    background: 'rgba(0, 212, 255, 0.1)',
+                    color: '#00d4ff',
                     padding: '0.25rem 0.75rem',
                     borderRadius: '15px',
                     fontSize: '0.8rem',
                     fontWeight: '500',
-                    border: '1px solid #e2e8f0'
+                    border: '1px solid rgba(0, 212, 255, 0.3)',
+                    textShadow: '0 0 5px rgba(0, 212, 255, 0.3)'
                   }}>
                     {tech}
                   </span>
@@ -162,14 +165,15 @@ const Portfolio = () => {
               <div style={{ textAlign: 'center' }}>
                 <a href={item.link} style={{
                   display: 'inline-block',
-                  background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                  background: 'linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%)',
                   color: 'white',
                   padding: '0.75rem 1.5rem',
                   textDecoration: 'none',
                   borderRadius: '25px',
-                  fontWeight: '500',
+                  fontWeight: '600',
                   fontSize: '0.9rem',
-                  transition: 'all 0.3s ease'
+                  transition: 'all 0.3s ease',
+                  boxShadow: '0 4px 15px rgba(0, 212, 255, 0.3)'
                 }}>
                   View Project
                 </a>

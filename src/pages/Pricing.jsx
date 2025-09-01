@@ -62,10 +62,10 @@ const Pricing = () => {
           
           <div className="pricing-grid">
             <div className="pricing-card">
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>Static Website</h3>
+              <h3 style={{ color: '#ffffff', marginBottom: '1rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Static Website</h3>
               <div className="price">$1,200</div>
               <div className="price-period">One-time payment</div>
-              <p style={{ color: '#718096', marginBottom: '2rem' }}>Perfect for small businesses and startups</p>
+              <p style={{ color: '#f1f5f9', marginBottom: '2rem', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>Perfect for small businesses and startups</p>
               
               <ul className="pricing-features">
                 <li>5-page responsive website</li>
@@ -99,10 +99,10 @@ const Pricing = () => {
                 Most Popular
               </div>
               
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>Custom Website</h3>
+              <h3 style={{ color: '#ffffff', marginBottom: '1rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Custom Website</h3>
               <div className="price">$2,500+</div>
               <div className="price-period">One-time payment</div>
-              <p style={{ color: '#718096', marginBottom: '2rem' }}>Ideal for growing businesses with complex needs</p>
+              <p style={{ color: '#f1f5f9', marginBottom: '2rem', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>Ideal for growing businesses with complex needs</p>
               
               <ul className="pricing-features">
                 <li>Custom website with database</li>
@@ -122,10 +122,10 @@ const Pricing = () => {
             </div>
             
             <div className="pricing-card">
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>AI Integration</h3>
+              <h3 style={{ color: '#ffffff', marginBottom: '1rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>AI Integration</h3>
               <div className="price">Custom</div>
               <div className="price-period">Tailored consultation</div>
-              <p style={{ color: '#718096', marginBottom: '2rem' }}>For AI features and advanced automation</p>
+              <p style={{ color: '#f1f5f9', marginBottom: '2rem', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>For AI features and advanced automation</p>
               
               <ul className="pricing-features">
                 <li>Custom AI solutions</li>
@@ -220,36 +220,36 @@ const Pricing = () => {
           
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
             <div style={{ marginBottom: '2rem' }}>
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>How long does it take to complete a project?</h3>
-              <p style={{ color: '#718096' }}>
+              <h3 style={{ color: '#ffffff', marginBottom: '1rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>How long does it take to complete a project?</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
                 Project timelines vary based on complexity. A simple website typically takes 2-4 weeks, while complex applications may take 8-12 weeks. We'll provide a detailed timeline during our initial consultation.
               </p>
             </div>
             
             <div style={{ marginBottom: '2rem' }}>
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>Do you provide ongoing support after launch?</h3>
-              <p style={{ color: '#718096' }}>
+              <h3 style={{ color: '#ffffff', marginBottom: '1rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Do you provide ongoing support after launch?</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
                 Yes! All our plans include post-launch support. We also offer monthly maintenance packages to keep your website secure, updated, and performing optimally.
               </p>
             </div>
             
             <div style={{ marginBottom: '2rem' }}>
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>Can I make changes to my website after it's built?</h3>
-              <p style={{ color: '#718096' }}>
+              <h3 style={{ color: '#ffffff', marginBottom: '1rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Can I make changes to my website after it's built?</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
                 Absolutely! We can integrate a content management system (CMS) that allows you to easily update content, add new pages, and make other changes without technical knowledge.
               </p>
             </div>
             
             <div style={{ marginBottom: '2rem' }}>
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>What if I need changes during development?</h3>
-              <p style={{ color: '#718096' }}>
+              <h3 style={{ color: '#ffffff', marginBottom: '1rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>What if I need changes during development?</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
                 We include 2 rounds of revisions in all our packages. Additional changes can be accommodated within the project scope or added as additional services.
               </p>
             </div>
             
             <div style={{ marginBottom: '2rem' }}>
-              <h3 style={{ color: '#2d3748', marginBottom: '1rem' }}>Do you provide hosting services?</h3>
-              <p style={{ color: '#718096' }}>
+              <h3 style={{ color: '#ffffff', marginBottom: '1rem', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Do you provide hosting services?</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
                 We can recommend reliable hosting providers and help you set up hosting. We also offer managed hosting solutions for clients who prefer a hands-off approach.
               </p>
             </div>

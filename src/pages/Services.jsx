@@ -149,28 +149,28 @@ const Services = () => {
             gap: '2rem',
             marginTop: '3rem'
           }}>
-            <div style={{ textAlign: 'center', padding: '2rem', background: 'white', borderRadius: '15px', boxShadow: '0 5px 15px rgba(0,0,0,0.1)' }}>
+            <div style={{ textAlign: 'center', padding: '2rem', background: 'rgba(0, 0, 0, 0.8)', borderRadius: '15px', boxShadow: '0 5px 15px rgba(0, 212, 255, 0.2)', border: '1px solid rgba(0, 212, 255, 0.2)' }}>
               <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>⚛️</div>
-              <h3 style={{ marginBottom: '0.5rem', color: '#2d3748' }}>Frontend</h3>
-              <p style={{ color: '#718096' }}>React, Vue.js, Angular, HTML5, CSS3, JavaScript</p>
+              <h3 style={{ marginBottom: '0.5rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Frontend</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>React, Vue.js, Angular, HTML5, CSS3, JavaScript</p>
             </div>
             
-            <div style={{ textAlign: 'center', padding: '2rem', background: 'white', borderRadius: '15px', boxShadow: '0 5px 15px rgba(0,0,0,0.1)' }}>
+            <div style={{ textAlign: 'center', padding: '2rem', background: 'rgba(0, 0, 0, 0.8)', borderRadius: '15px', boxShadow: '0 5px 15px rgba(0, 212, 255, 0.2)', border: '1px solid rgba(0, 212, 255, 0.2)' }}>
               <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🚀</div>
-              <h3 style={{ marginBottom: '0.5rem', color: '#2d3748' }}>Backend</h3>
-              <p style={{ color: '#718096' }}>Node.js, Python, PHP, Java, .NET, Ruby</p>
+              <h3 style={{ marginBottom: '0.5rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Backend</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>Node.js, Python, PHP, Java, .NET, Ruby</p>
             </div>
             
-            <div style={{ textAlign: 'center', padding: '2rem', background: 'white', borderRadius: '15px', boxShadow: '0 5px 15px rgba(0,0,0,0.1)' }}>
+            <div style={{ textAlign: 'center', padding: '2rem', background: 'rgba(0, 0, 0, 0.8)', borderRadius: '15px', boxShadow: '0 5px 15px rgba(0, 212, 255, 0.2)', border: '1px solid rgba(0, 212, 255, 0.2)' }}>
               <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🗄️</div>
-              <h3 style={{ marginBottom: '0.5rem', color: '#2d3748' }}>Databases</h3>
-              <p style={{ color: '#718096' }}>MySQL, PostgreSQL, MongoDB, Redis, SQLite</p>
+              <h3 style={{ marginBottom: '0.5rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Databases</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>MySQL, PostgreSQL, MongoDB, Redis, SQLite</p>
             </div>
             
-            <div style={{ textAlign: 'center', padding: '2rem', background: 'white', borderRadius: '15px', boxShadow: '0 5px 15px rgba(0,0,0,0.1)' }}>
+            <div style={{ textAlign: 'center', padding: '2rem', background: 'rgba(0, 0, 0, 0.8)', borderRadius: '15px', boxShadow: '0 5px 15px rgba(0, 212, 255, 0.2)', border: '1px solid rgba(0, 212, 255, 0.2)' }}>
               <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>☁️</div>
-              <h3 style={{ marginBottom: '0.5rem', color: '#2d3748' }}>Cloud & DevOps</h3>
-              <p style={{ color: '#718096' }}>AWS, Google Cloud, Azure, Docker, Kubernetes</p>
+              <h3 style={{ marginBottom: '0.5rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Cloud & DevOps</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>AWS, Google Cloud, Azure, Docker, Kubernetes</p>
             </div>
           </div>
         </div>
@@ -192,7 +192,7 @@ const Services = () => {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%)',
                 borderRadius: '50%',
                 display: 'flex',
                 alignItems: 'center',
@@ -202,15 +202,15 @@ const Services = () => {
                 fontSize: '2rem',
                 fontWeight: 'bold'
               }}>1</div>
-              <h3 style={{ marginBottom: '1rem', color: '#2d3748' }}>Discovery & Planning</h3>
-              <p style={{ color: '#718096' }}>We start by understanding your business goals, target audience, and project requirements.</p>
+              <h3 style={{ marginBottom: '1rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Discovery & Planning</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>We start by understanding your business goals, target audience, and project requirements.</p>
             </div>
             
             <div style={{ textAlign: 'center' }}>
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%)',
                 borderRadius: '50%',
                 display: 'flex',
                 alignItems: 'center',
@@ -220,15 +220,15 @@ const Services = () => {
                 fontSize: '2rem',
                 fontWeight: 'bold'
               }}>2</div>
-              <h3 style={{ marginBottom: '1rem', color: '#2d3748' }}>Design & Prototyping</h3>
-              <p style={{ color: '#718096' }}>Creating wireframes, mockups, and interactive prototypes for your approval.</p>
+              <h3 style={{ marginBottom: '1rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Design & Prototyping</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>Creating wireframes, mockups, and interactive prototypes for your approval.</p>
             </div>
             
             <div style={{ textAlign: 'center' }}>
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%)',
                 borderRadius: '50%',
                 display: 'flex',
                 alignItems: 'center',
@@ -238,26 +238,25 @@ const Services = () => {
                 fontSize: '2rem',
                 fontWeight: 'bold'
               }}>3</div>
-              <h3 style={{ marginBottom: '1rem', color: '#2d3748' }}>Development</h3>
-              <p style={{ color: '#718096' }}>Building your website or application using modern technologies and best practices.</p>
+              <h3 style={{ marginBottom: '1rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Development</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>Building your website or application using modern technologies and best practices.</p>
             </div>
             
             <div style={{ textAlign: 'center' }}>
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%)',
                 borderRadius: '50%',
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'center',
                 margin: '0 auto 1rem',
                 color: 'white',
                 fontSize: '2rem',
                 fontWeight: 'bold'
               }}>4</div>
-              <h3 style={{ marginBottom: '1rem', color: '#2d3748' }}>Testing & Launch</h3>
-              <p style={{ color: '#718096' }}>Rigorous testing followed by deployment and launch of your project.</p>
+              <h3 style={{ marginBottom: '1rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>Testing & Launch</h3>
+              <p style={{ color: '#f1f5f9', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>Rigorous testing followed by deployment and launch of your project.</p>
             </div>
           </div>
         </div>

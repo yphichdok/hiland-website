@@ -57,10 +57,10 @@ const About = () => {
               <h2 className="section-title" style={{ textAlign: 'left', marginBottom: '2rem' }}>
                 Our Mission
               </h2>
-              <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: '#4a5568', marginBottom: '1.5rem' }}>
+              <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: '#f1f5f9', marginBottom: '1.5rem', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
                 We believe that every website is not just an information page, but a brand story told through technology and creativity. We're committed to delivering elegant, modern designs tailored to each industry.
               </p>
-              <p style={{ fontSize: '1.1rem', lineHeight: '1.7', color: '#718096' }}>
+              <p style={{ fontSize: '1.1rem', lineHeight: '1.7', color: '#cbd5e1', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>
                 In today's AI-driven era, a modern, sophisticated, and professional website is not just your brand's face—it's a powerful tool to attract customers, elevate your business image, and create competitive advantages.
               </p>
             </div>
@@ -136,7 +136,7 @@ const About = () => {
                 👨‍💻
               </div>
               <h3>John Smith</h3>
-              <p style={{ color: '#667eea', fontWeight: '600', marginBottom: '1rem' }}>Lead Developer</p>
+              <p style={{ color: '#00d4ff', fontWeight: '600', marginBottom: '1rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>Lead Developer</p>
               <p>Full-stack developer with 8+ years of experience in modern web technologies and frameworks.</p>
             </div>
             
@@ -156,7 +156,7 @@ const About = () => {
                 🎨
               </div>
               <h3>Sarah Johnson</h3>
-              <p style={{ color: '#667eea', fontWeight: '600', marginBottom: '1rem' }}>UI/UX Designer</p>
+              <p style={{ color: '#00d4ff', fontWeight: '600', marginBottom: '1rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>UI/UX Designer</p>
               <p>Creative designer passionate about creating beautiful, intuitive user experiences that convert.</p>
             </div>
             

@@ -154,36 +154,36 @@ const Contact = () => {
           }}>
             {/* Contact Information */}
             <div>
-              <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem', color: '#2d3748' }}>
+              <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>
                 Let's Start a Conversation
               </h2>
-              <p style={{ fontSize: '1.2rem', lineHeight: '1.7', color: '#4a5568', marginBottom: '3rem' }}>
+              <p style={{ fontSize: '1.2rem', lineHeight: '1.7', color: '#f1f5f9', marginBottom: '3rem', textShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
                 Whether you have a specific project in mind or just want to explore possibilities, we're here to help. 
                 Reach out to us and let's discuss how we can transform your business online.
               </p>
               
               <div style={{ marginBottom: '2rem' }}>
-                <h3 style={{ color: '#667eea', marginBottom: '1rem', fontSize: '1.3rem' }}>📧 Email</h3>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>info@hiland.tech</p>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>support@hiland.tech</p>
+                <h3 style={{ color: '#00d4ff', marginBottom: '1rem', fontSize: '1.3rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>📧 Email</h3>
+                <p style={{ color: '#f1f5f9', fontSize: '1.1rem', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>info@hiland.tech</p>
+                <p style={{ color: '#f1f5f9', fontSize: '1.1rem', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>support@hiland.tech</p>
               </div>
               
               <div style={{ marginBottom: '2rem' }}>
-                <h3 style={{ color: '#667eea', marginBottom: '1rem', fontSize: '1.3rem' }}>📞 Phone</h3>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>Minnesota: 952-245-9629</p>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>California: 714-912-3163</p>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>Mon-Fri: 9:00 AM - 6:00 PM PST</p>
+                <h3 style={{ color: '#00d4ff', marginBottom: '1rem', fontSize: '1.3rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>📞 Phone</h3>
+                <p style={{ color: '#f1f5f9', fontSize: '1.1rem', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>Minnesota: 952-245-9629</p>
+                <p style={{ color: '#f1f5f9', fontSize: '1.1rem', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>California: 714-912-3163</p>
+                <p style={{ color: '#f1f5f9', fontSize: '1.1rem', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>Mon-Fri: 9:00 AM - 6:00 PM PST</p>
               </div>
               
               <div style={{ marginBottom: '2rem' }}>
-                <h3 style={{ color: '#667eea', marginBottom: '1rem', fontSize: '1.3rem' }}>📍 Address</h3>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>Minnesota, United States</p>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>Serving businesses across Minnesota</p>
-                <p style={{ color: '#718096', fontSize: '1.1rem' }}>and beyond</p>
+                <h3 style={{ color: '#00d4ff', marginBottom: '1rem', fontSize: '1.3rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>📍 Address</h3>
+                <p style={{ color: '#f1f5f9', fontSize: '1.1rem', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>Minnesota, United States</p>
+                <p style={{ color: '#f1f5f9', fontSize: '1.1rem', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>Serving businesses across Minnesota</p>
+                <p style={{ color: '#f1f5f9', fontSize: '1.1rem', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>and beyond</p>
               </div>
               
               <div>
-                <h3 style={{ color: '#667eea', marginBottom: '1rem', fontSize: '1.3rem' }}>💬 Social Media</h3>
+                <h3 style={{ color: '#00d4ff', marginBottom: '1rem', fontSize: '1.3rem', textShadow: '0 0 10px rgba(0, 212, 255, 0.4)' }}>💬 Social Media</h3>
                 <div style={{ display: 'flex', gap: '1rem' }}>
                   <a href="#" style={{ 
                     width: '40px',
@@ -234,7 +234,7 @@ const Contact = () => {
             {/* Contact Form */}
             <div>
               <form className="contact-form" onSubmit={handleSubmit}>
-                <h3 style={{ textAlign: 'center', marginBottom: '2rem', color: '#2d3748' }}>
+                <h3 style={{ textAlign: 'center', marginBottom: '2rem', color: '#ffffff', textShadow: '0 0 15px rgba(0, 212, 255, 0.5), 0 2px 4px rgba(0,0,0,0.3)' }}>
                   Send Us a Message
                 </h3>
                 
