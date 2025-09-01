@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Helmet } from 'react-helmet'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -11,6 +12,14 @@ const Contact = () => {
     budget: '',
     message: ''
   })
+  
+  const [isLoading, setIsLoading] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState(null) // 'success', 'error', or null
+
+  // Initialize EmailJS
+  useEffect(() => {
+    emailjs.init("YOUR_PUBLIC_KEY") // You'll replace this with your actual EmailJS public key
+  }, [])
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -20,11 +29,56 @@ const Contact = () => {
     }))
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData)
-    alert('Thank you for your message! We\'ll get back to you soon.')
+    setIsLoading(true)
+    setSubmitStatus(null)
+
+    try {
+      // EmailJS template parameters
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        from_phone: formData.phone,
+        company: formData.company,
+        project_type: formData.projectType,
+        budget: formData.budget,
+        message: formData.message,
+        to_email: 'info@hiland.tech', // Your email address
+        to_name: 'Hiland Tech Team'
+      }
+
+      // Send email using EmailJS
+      const result = await emailjs.send(
+        'YOUR_SERVICE_ID', // You'll replace this with your EmailJS service ID
+        'YOUR_TEMPLATE_ID', // You'll replace this with your EmailJS template ID
+        templateParams,
+        'YOUR_PUBLIC_KEY' // You'll replace this with your EmailJS public key
+      )
+
+      if (result.status === 200) {
+        setSubmitStatus('success')
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          company: '',
+          projectType: '',
+          budget: '',
+          message: ''
+        })
+      } else {
+        setSubmitStatus('error')
+      }
+    } catch (error) {
+      console.error('Email sending failed:', error)
+      setSubmitStatus('error')
+    } finally {
+      setIsLoading(false)
+    }
+  }
+
+  const resetForm = () => {
     setFormData({
       name: '',
       email: '',
@@ -34,6 +88,7 @@ const Contact = () => {
       budget: '',
       message: ''
     })
+    setSubmitStatus(null)
   }
 
   return (
@@ -296,9 +351,74 @@ const Contact = () => {
                   />
                 </div>
                 
-                <button type="submit" className="submit-btn">
-                  Send Message
+                <button type="submit" className="submit-btn" disabled={isLoading}>
+                  {isLoading ? (
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      <div style={{ 
+                        width: '16px', 
+                        height: '16px', 
+                        border: '2px solid transparent', 
+                        borderTop: '2px solid white', 
+                        borderRadius: '50%', 
+                        animation: 'spin 1s linear infinite' 
+                      }}></div>
+                      Sending...
+                    </span>
+                  ) : 'Send Message'}
                 </button>
+
+                {/* Status Messages */}
+                {submitStatus === 'success' && (
+                  <div style={{ 
+                    background: '#d4edda', 
+                    color: '#155724', 
+                    padding: '1rem', 
+                    borderRadius: '10px', 
+                    marginTop: '1rem',
+                    border: '1px solid #c3e6cb',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem'
+                  }}>
+                    ✅ <strong>Message sent successfully!</strong> We'll get back to you within 24 hours.
+                  </div>
+                )}
+                
+                {submitStatus === 'error' && (
+                  <div style={{ 
+                    background: '#f8d7da', 
+                    color: '#721c24', 
+                    padding: '1rem', 
+                    borderRadius: '10px', 
+                    marginTop: '1rem',
+                    border: '1px solid #f5c6cb',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem'
+                  }}>
+                    ❌ <strong>Failed to send message.</strong> Please try again or contact us directly at info@hiland.tech
+                  </div>
+                )}
+
+                {/* Success Actions */}
+                {submitStatus === 'success' && (
+                  <div style={{ marginTop: '1rem', textAlign: 'center' }}>
+                    <button 
+                      onClick={resetForm}
+                      style={{
+                        background: '#667eea',
+                        color: 'white',
+                        border: 'none',
+                        padding: '0.5rem 1rem',
+                        borderRadius: '5px',
+                        cursor: 'pointer',
+                        fontSize: '0.9rem'
+                      }}
+                    >
+                      Send Another Message
+                    </button>
+                  </div>
+                )}
               </form>
             </div>
           </div>

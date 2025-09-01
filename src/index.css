@@ -203,6 +203,12 @@ main {
   }
 }
 
+/* Loading Spinner Animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 /* Logo responsive adjustments */
 @media (max-width: 480px) {
   .logo {
