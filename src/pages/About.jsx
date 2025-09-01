@@ -147,8 +147,8 @@ const About = () => {
             
             <div className="card">
               <div style={{ 
-                width: '140px', 
-                height: '140px', 
+                width: '120px', 
+                height: '120px', 
                 borderRadius: '50%', 
                 margin: '0 auto 1.5rem',
                 overflow: 'hidden',
