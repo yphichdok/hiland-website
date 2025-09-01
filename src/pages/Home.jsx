@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Testimonials from '../components/Testimonials'
+import Portfolio from '../components/Portfolio'
+import Blog from '../components/Blog'
 
 const Home = () => {
   return (
@@ -58,6 +61,15 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <Testimonials />
+
+      {/* Portfolio Section */}
+      <Portfolio />
+
+      {/* Blog Section */}
+      <Blog />
 
       {/* CTA Section */}
       <section className="section" style={{ backgroundColor: '#f7fafc' }}>
